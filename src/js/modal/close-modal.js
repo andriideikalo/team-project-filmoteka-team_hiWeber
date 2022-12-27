@@ -3,6 +3,7 @@ const refs = {
   btnCloseModal: document.querySelector('[data-close-modal]'),
   teamModal: document.querySelector('[data-modal]'),
 };
+
 refs.linkOpenModal.addEventListener('click', toggleModal);
 refs.btnCloseModal.addEventListener('click', toggleModal);
 
